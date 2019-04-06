@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <title>HTML Academy: Седона</title>
+</head>
+
+<body>
+    <header class="header">
+        <nav class="container">
+            <div class="row">
+                <div class="header__logo">
+                    <img src="#" class="header__picture-logo" alt="Логотип">
+                </div>
+                <ul class="row">
+                    <li class="header__menu"><a href="#" class="header__link">ГЛАВНАЯ</a></li>
+                    <li class="header__menu"><a href="#" class="header__link">ФОТО И ВИДЕО</a></li>
+                    <li class="header__menu"><a href="#" class="header__link">ФОРМА ДЛЯ ОТЗЫВА</a></li>
+                    <li class="header__menu"><a href="#" class="header__link">HTML ACADEMY</a></li>
+                </ul>
+                <div class="header__block-link">
+                    <a class="header__link"></a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="main-banner">
+            <div class="container">
+                <h1 class="main-banner__text"><img src="#" class="main-banner__picture-text" alt="Welcome to the Sedona"></h1>
+            </div>
+        </section>
+        <section class="feedback">
+            <div class="container">
+                <div>
+                    <h2 class="feedback__headline">ОСТАВЬТЕ СВОЙ ОТЗЫВ</h2>
+                    <p class="feedback__text">ПОМОГИТЕ НАШИМ ОТЕЛЯМ СТАТЬ ЛУЧШЕ! ОСТАВЬТЕ ОТЗЫВ О НИХ, А ТАКЖЕ О ПОСЕЩЕНЫХ ВАМИ ДОСТОПРИМЕЧАТЕЛЬНОСТЯХ</p>
+                </div>
+            </div>
+        </section>
+        <section class="man">
+            <div class="container">
+                <h2>ПРЕДСТАВЬТЕСЬ, ПОЖАЛУЙСТА:</h2>
+                <div class="row">
+                    <div>
+                        <label class="man__text" for="man__text--1">ИМЯ</label>
+                        <input type="text" placeholder="Петр" class="man__fields-water man__fields-water--great" id="man__text--1">
+                    </div>
+                    <div>
+                        <label class="man__text" for="man__text--2">ФАМИЛИЯ</label>
+                        <input type="text" placeholder="Иванов" class="man__fields-water man__fields-water--little" id="man__text--2">
+                    </div>
+                    <div>
+                        <label class="man__text" for="man__text--3">ОТЧЕСТВО</label>
+                        <input type="text" placeholder="Александрович" class="man__fields-water man__fields-water--little" id="man__text--3">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="Contact-Information">
+            <div>
+                <div>
+                    <h2 class="Contact-Information__headline">КОНТАКНАЯ ИНФОРМАЦИЯ</h2>
+                    <div>
+                        <label class="Contact-Information__text" for="Contact-Information__text--1">КОНТАКНЫЙ ТЕЛЕФОН</label>
+                        <input type="text" placeholder="Введите телефон" class="Contact-Information__fields-water" id="Contact-Information__text--1">
+                        <button class="Contact-Information__button"><img src="#" class="Contact-Information__picture Contact-Information__picture--1" alt="Фото телефона"></button>
+                    </div>
+                    <div>
+                        <label class="Contact-Information__text" for="Contact-Information__text--2">ЭЛЕКТРОНАЯ ПОЧТА</label>
+                        <input type="text" placeholder="Введите e-mail" class="Contact-Information__fields-water" id="Contact-Information__text--2">
+                        <button class="Contact-Information__button"><img src="#" class="Contact-Information__picture Contact-Information__picture--2" alt="фото конверта"></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="impression">
+            <div class="container">
+                <h2>ВАШЕ ОБЩЕЕ ВПЕЧАТЛЕНИЕ</h2>
+                <div class="row">
+                    <div>
+                        <div class="impression__switch-type impression__switch-type--1">
+                            <div class="impression__circle impression__circle--1"></div>
+                        </div>
+                        <input type="radio" name="impression" class="impression__switch impression__switch--1" id="impression__text--1">
+                        <label class="impression__text" for="impression__text--1">Скорее положительное</label>
+                    </div>
+                    <div>
+                        <div class="impression__switch-type impression__switch-type--2">
+                            <div class="impression__circle impression__circle--2"></div>
+                        </div>
+                        <input type="radio" name="impression" class="impression__switch impression__switch--2" id="impression__text--2">
+                        <label class="impression__text" for="impression__text--2">Скорее отрицательное</label>
+                    </div>
+                    <div>
+                        <div class="impression__switch-type impression__switch-type--3">
+                            <div class="impression__circle impression__circle--3"></div>
+                        </div>
+                        <input type="radio" name="impression" class="impression__switch impression__switch--3" id="impression__text--3">
+                        <label class="impression__text" for="impression__text--3">Затрудняюсь ответить</label>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="sight">
+            <div class="container">
+                <h2 class="sight__headline">ПОСЕЩЕНЫЕ ДОСТОПРИМЕЧАТЕЛЬНОСТИ</h2>
+                <div class="row">
+                    <div>
+                        <div class="sight__switch-type sight__switch-type--1">
+                            <div class="sight__circle sight__circle--1"></div>
+                        </div>
+                        <input type="checkbox" class="sight__switch sight__switch--1" id="sight__text--1">
+                        <label for="sight__text--1">МОСТ ДЬЯВОЛА</label>
+                    </div>
+                    <div>
+                        <div class="sight__switch-type sight__switch-type--2">
+                            <div class="sight__circle sight__circle--2"></div>
+                        </div>
+                        <input type="checkbox" class="sight__switch sight__switch--2" id="sight__text--2">
+                        <label for="sight__text--2">Гора-Колокол</label>
+                    </div>
+                    <div>
+                        <div class="sight__switch-type sight__switch-type--3">
+                            <div class="sight__circle sight__circle--3"></div>
+                        </div>
+                        <input type="checkbox" class="sight__switch sight__switch--3" id="sight__text--3">
+                        <label for="sight__text--3">Слайд-парк</label>
+                    </div>
+                    <div>
+                        <div class="sight__switch-type sight__switch-type--4">
+                            <div class="sight__circle sight__circle--4"></div>
+                        </div>
+                        <input type="checkbox" class="sight__switch sight__switch--4" id="sight__text--4">
+                        <label for="sight__text--4">Красные скалы</label>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="emotions">
+            <div class="container">
+                <h2 class="emotions__headline">ОПИШИТЕ СВОИ ЭМОЦИИ</h2>
+                <textarea class="emotions__field">Опишите подробно все свои восторги</textarea>
+                <button class="emotions__button">ОТПРАВИТЬ ОТЗЫВ</button>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div>
+                <div>
+                    <h2 class="footer__text">#VISITSEDONA</h2>
+                </div>
+                <div>
+                    <a href="#" class="footer__social"><img src="#" class="footer__icon" alt="Twitter"></a>
+                    <a href="#" class="footer__social"><img src="#" class="footer__icon" alt="facebook"></a>
+                    <a href="#" class="footer__social"><img src="#" class="footer__icon" alt="YouTube"></a>
+                </div>
+                <div>
+                    <p class="footer__copyright">РАЗРАБОТАНО</p>
+                    <img src="#" class="footer__icon" alt="html academy">
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
