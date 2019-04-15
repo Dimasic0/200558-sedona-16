@@ -1,0 +1,48 @@
+.features
+{
+  overflow:hidden;
+  height:191px;
+}
+.features__headline
+{
+  margin-left:auto;
+  margin-right:auto;
+  width:214px;
+  @extend.city__headline;
+}
+.headline-1
+{
+  margin-top:39px;
+}
+.features__number,
+.features__text
+{
+  @extend .city__text;
+}
+.number-1
+{
+  margin-top:14px;
+}
+.features__number
+{
+   width:56px;
+   margin-left:auto;
+   margin-right:auto;
+}
+.features__text
+{
+  width:281px;
+  text-align: center;
+  margin-left:auto;
+  margin-right:auto;
+}
+.features__block-text
+{
+  @include block-color($Screen-size*1px,191px,#81b3d2);
+  margin-left:auto;
+  margin-right:auto;
+}
+.text-1
+{
+margin-top:16px;
+}

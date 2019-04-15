@@ -1,0 +1,21 @@
+.best-offers__headline
+{
+  @include font(PTSans,18px,700,black,center);
+  margin-top:44px;
+
+}
+.best-offers__text
+{
+  font-size:14px;
+  line-height:24px;
+  @extend .information-city__text;
+  margin-top:37px;
+  margin-bottom:33px;
+}
+.best-offers__block
+{
+  width:$Screen-size*1px;
+  margin-left:auto;
+  margin-right:auto;
+  border-bottom:1px solid #e5e5e5;
+}

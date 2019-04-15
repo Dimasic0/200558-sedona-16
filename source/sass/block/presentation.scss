@@ -1,0 +1,24 @@
+.presentation,
+.presentation__block
+{
+  overflow: hidden;
+}
+.presentation__headline
+{
+  @extend .advantage__headline;
+}
+.presentation__block
+{
+  margin-left:auto;
+  margin-right:auto;
+  width:$Screen-size*1px;
+}
+.presentation__text
+{
+@extend .modal__text;
+}
+.presentation__photo
+{
+  width:321px;
+  height:267px;
+}

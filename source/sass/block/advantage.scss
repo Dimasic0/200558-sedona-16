@@ -1,0 +1,52 @@
+.advantage {
+  overflow: hidden;
+}
+
+.block-1 {
+  border-top: 1px solid #d6d6d6;
+  border-bottom: 1px solid #d6d6d6;
+}
+
+.advantage__block {
+  height: 167px;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.advantage__headline {
+  text-align: center;
+  @extend .offers__headline;
+}
+
+.advantage__number {
+  margin-top: 13px;
+  text-align: center;
+}
+
+.advantage__text,
+.modal__text {
+  margin-top: 17px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.advantage__text {
+  @extend .offers__text;
+  line-height: 24px;
+}
+
+.advantage__text--1 {
+  width: 287px;
+}
+
+.advantage__text--2 {
+  width: 207px;
+}
+
+.advantage__text--3 {
+  width: 246px;
+}
+.advantage__block {
+  @include block-color($Screen-size*1px, 167px, #eeeeee);
+}

@@ -1,0 +1,58 @@
+.offers__headline
+{
+  @include font(PTSans,18px,700,black,left);
+}
+.offers__text,
+{
+  margin-top:16px;
+  @include font(PTsans,14px,400,#333333,left);
+  line-height:21px;
+}
+
+.advantage__headline
+{
+  display: block;
+  margin-top:27px;
+  min-width: 138px;
+}
+.offers__block-text
+{
+  margin-left:10px;
+  margin-bottom:23px;
+}
+.offers__block
+{
+  margin:0px;
+  width:$Screen-size*1px;
+  margin-left:auto;
+  margin-right:auto;
+}
+.offers__block--1
+{
+  margin-top:26px;
+}
+.offers__block-icon
+{
+  margin-left:21px;
+}
+.offers__headline--1
+{
+  margin-top:15px;
+}
+.offers__headline--2
+{
+  margin-top:17px;
+}
+.offers__headline--3
+{
+  margin-top:9px;
+}
+.offers__headline--1,
+.offers__headline--2
+{
+  line-height:12px;
+}
+.offers__headline--3
+{
+  line-height: 16px;
+}
