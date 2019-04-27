@@ -1,0 +1,22 @@
+@media(min-width:1200px)
+{
+  .photo__block
+  {
+    &--2,
+    &--3,
+    &--4
+    {
+    display: inline-block;
+    width:400px;
+    margin-left:0px;
+    }
+    &--3
+    {
+      margin-left:-4px;
+    }
+    &--4
+    {
+      margin-bottom:0px;
+    }
+  }
+}
