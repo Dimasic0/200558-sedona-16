@@ -1,4 +1,4 @@
-.greeting__block
+.greeting__wrapper
 {
   @include block_background($Screen-size*1px,389px,"../img/intro-triangle.png");
   margin-left:auto;

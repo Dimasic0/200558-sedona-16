@@ -1,5 +1,5 @@
 .presentation,
-.presentation__block {
+.presentation__wrapper {
   overflow: hidden;
 }
 
@@ -7,7 +7,7 @@
   @extend .advantage__headline;
 }
 
-.presentation__block {
+.presentation__wrapper {
   margin-left: auto;
   margin-right: auto;
   min-width: 320px;
@@ -26,7 +26,7 @@
   margin-right:auto;
 }
 
-.presentation__block {
+.presentation__wrapper {
   background-color: white;
 }
 .presentation__item
@@ -84,21 +84,21 @@
   margin-top:23px;
   margin-left:31*100%/280;
 }
-.presentation__button--turntable-2
+.presentation__button--turntable
 {
    display: inline-block;
    @include block_background(16px,20px,"../../img/scroll button.png");
    margin-top:35px;
    margin-left:35*100%/648;
 }
-.presentation__block--cc-2
+.presentation__block--cc
 {
   display:inline-block;
-  @include block_background(32px,20px,"../../img/кнопка сс.png");
+  @include block_background(32px,20px,"../../img/button_сс.png");
   margin-top:36px;
   margin-left:42*100%/648;
 }
-.presentation__button--expand-2
+.presentation__button--expand
 {
   display:inline-block;
   @include block_background(20px,20px,"../../img/fullscreen.png");

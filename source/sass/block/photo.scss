@@ -1,4 +1,4 @@
-.photo__main-block
+.photo__wrapper
 {
   max-width:1200px;
   margin-left:auto;
@@ -7,12 +7,12 @@
   overflow: hidden;
 }
 .photo__block {
-  width: $Screen-size*1px;
+  width:$Screen-size*1px;
   max-width:1200px;
   margin-left: auto;
   margin-right: auto;
   border-bottom: 1px solid #e5e5e5;
-  padding: 0px;
+  padding: 0;
 }
 
 .photo__picture {
@@ -30,19 +30,19 @@
   margin-top: 22px;
   line-height: 13px;
   margin-left: 61px*100/$Screen-size;
-  &--1
+  &:nth-of-type(1)
   {
     width:145px;
   }
-  &--2
+  &:nth-of-type(2)
   {
     width:178px;
   }
-  &--3
+  &:nth-of-type(3)
   {
     width:114px;
   }
-  &--4
+  &:nth-of-type(4)
   {
     width:101px;
   }
@@ -54,19 +54,20 @@
   margin-top: 14px;
   line-height: 10px;
   color: #333333;
-  &--1
+  text-transform: capitalize;
+  &:nth-of-type(1)
   {
     width:109px;
   }
-  &--2
+  &:nth-of-type(2)
   {
     width:114px;
   }
-  &--3
+  &:nth-of-type(3)
   {
     width:102px;
   }
-  &--4
+  &:nth-of-type(4)
   {
     width:109px;
   }
@@ -76,9 +77,9 @@
   display: inline-block;
   width: 23px;
   height: 21px;
-  padding: 0px;
+  padding: 0;
   background-color: rgba(255, 255, 255, 0);
-  border: 0px;
+  border: 0;
   margin-left: 61px*100/$Screen-size;
   margin-top: 14px;
 }

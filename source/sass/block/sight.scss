@@ -46,8 +46,9 @@
   position:relative;
   top:-21px;
   left:19px;
+  text-transform:capitalize;
 }
-.sight__block
+.sight__wrapper
 {
   border-top:1px solid #e5e5e5;
   min-width:$Screen-size*1px;

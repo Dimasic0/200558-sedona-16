@@ -2,134 +2,135 @@
 <html lang="ru">
 
 <head>
-  <meta charset="utf-8">
-  <title>HTML Academy: Седона</title>
-  <link rel="stylesheet" href="css/style.css">
+    <meta charset="utf-8">
+    <title>HTML Academy: Седона</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-  <header class="header">
-    <nav class="header__navigation">
-      <div class="header__block width_100">
-        <ul class="row_768">
-          <li class="header__menu header__menu--1"><a href="#" class="header__link link-active-1">ГЛАВНАЯ</a><button class="header__button-cross none_768"><img src="img/icon-cross.png" class="header__icon-cross"></button></li>
-          <li class="header__menu header__menu--2"><a href="#" class="header__link">ФОТО И ВИДЕО</a></li>
-          <li class="header__menu header__menu--3 visible_768"><img src="img/logo-sedona-tablet.svg" class="header__picture-logo" alt="Логотип"></li>
-          <li class="header__menu header__menu--4"><a href="#" class="header__link">ФОРМА ДЛЯ ОТЗЫВА</a></li>
-          <li class="header__menu header__menu--5"><a href="#" class="header__link">HTML ACADEMY</a></li>
-        </ul>
-        <div class="row header__row none_768">
-          <img src="img/logo-sedona-tablet.svg" class="header__picture-logo" alt="Логотип">
-          <a class="header__link-button"></a>
+    <header class="header">
+        <nav class="header__wrapper">
+            <ul class="header__block">
+                <li class="header__menu"><a href="#" class="header__link">главная</a><button class="header__button-cross"><img src="img/icon-cross.png" class="header__icon-cross" alt="cross"></button></li>
+                <li class="header__menu"><a href="#" class="header__link">фото и видео</a></li>
+                <li class="header__menu"><img src="img/logo-sedona-tablet.svg" class="header__picture-logo" alt="logo"></li>
+                <li class="header__menu"><a href="#" class="header__link">форма для отзыва</a></li>
+                <li class="header__menu"><a href="#" class="header__link">html academy</a></li>
+            </ul>
+            <div class="header__row">
+                <img src="img/logo-sedona-tablet.svg" class="header__picture-logo" alt="logo">
+                <a class="header__link-button"></a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="main-banner">
+            <div class="main-banner__wrapper">
+                <h1 class="main-banner__text"><img src="img/sedona.png" class="main-banner__picture-text" alt="Welcome to the Sedona"></h1>
+            </div>
+        </section>
+        <section class="best-offers">
+            <div class="best-offers__wrapper">
+                <h2 class="best-offers__headline">фото и видео</h2>
+                <p class="best-offers__text">не можете решиться на путешествие из-за курса?<br> фотографии помогут вам забыть о политике и экономике  </p>
+            </div>
+        </section>
+        <section class="photo">
+            <div class="photo__wrapper">
+                <figure class="photo__block">
+                    <img src="img/road.jpg" class="photo__picture" alt="not native spaces">
+                    <div class="photo__information">
+                        <h2 class="photo__headline">неродные просторы</h2>
+                        <p class="photo__author">Автор фото:Борис</p>
+                    </div>
+                    <div class="photo__block-button">
+                        <button class="photo__button"><img src="img/like-icon.png" class="photo__button-img" alt="like"></button>
+                        <p class="photo__numbers">1350</p>
+                    </div>
+                </figure>
+                <figure class="photo__block">
+                    <img src="img/plants.jpg" class="photo__picture" alt="native vegetation">
+                    <div class="photo__information">
+                        <h2 class="photo__headline">местная растительность</h2>
+                        <p class="photo__author">Автор фото:Сергей</p>
+                    </div>
+                    <div class="photo__block-button">
+                        <button class="photo__button"><img src="img/like-icon.png" class="photo__button-img" alt="like"></button>
+                        <p class="photo__numbers">143</p>
+                    </div>
+                </figure>
+                <figure class="photo__block">
+                    <img src="img/road_north.jpg" class="photo__picture" alt="road north">
+                    <div class="photo__information">
+                        <h2 class="photo__headline">дорога на север</h2>
+                        <p class="photo__author">Автор фото:Петр</p>
+                    </div>
+                    <div class="photo__block-button">
+                        <button class="photo__button"><img src="img/like-icon.png" class="photo__button-img" alt="like"></button>
+                        <p class="photo__numbers">96</p>
+                    </div>
+                </figure>
+                <figure class="photo__block">
+                    <img src="img/devil's_bridge.jpg" class="photo__picture" alt="devil's bridge">
+                    <div class="photo__information">
+                        <h2 class="photo__headline">мост дьявола</h2>
+                        <p class="photo__author">автор фото:антон</p>
+                    </div>
+                    <div class="photo__block-button">
+                        <button class="photo__button"><img src="img/like-icon.png" class="photo__button-img" alt="like"></button>
+                        <p class="photo__numbers">254</p>
+                    </div>
+                </figure>
+            </div>
+        </section>
+        <section class="presentation">
+            <div class="presentation__wrapper">
+                <h2 class="presentation__headline">все еще сомневается</h2>
+                <p class="presentation__text">смотрите видеопрезентанцию и скорее за билетами, пока они не подорожали в очередной раз</p>
+                <img src="img/video-desktop@1x.jpg" class="presentation__photo" alt="road">
+                <div class="presentation__item">
+                    <button class="presentation__button--turntable"></button>
+                    <div class="presentation__band">
+                        <div class="presentation__circle"></div>
+                    </div> <button class="presentation__block--cc"></button><button class="presentation__button--expand"></button>
+                </div>
+                <div class="presentation__unit">
+                    <button class="presentation__block--turntable"></button>
+                    <button class="presentation__block--cc"></button>
+                    <button class="presentation__block--expand"></button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer__wrapper">
+            <div class="footer__block">
+                <h2 class="footer__text">visitsedona</h2>
+            </div>
+            <div class="footer__block">
+                <a href="#" class="footer__social">
+                    <img src="img/icon-twitter.png" class="footer__icon" alt="Twitter">
+                    <img src="img/twitter_active.png" class="footer__icon-active" alt="clicked twitter">
+                </a>
+                <a href="#" class="footer__social">
+                    <img src="img/icon-facebook.png" class="footer__icon" alt="facebook">
+                    <img src="img/facebook_active.png" class="footer__icon-active" alt="Facebook clicked">
+                </a>
+                <a href="#" class="footer__social">
+                    <img src="img/icon-youtube.png" class="footer__icon" alt="YouTube">
+                    <img src="img/YouTube_active.png" class="footer__icon-active" alt="youtube clicked">
+                </a>
+            </div>
+            <div class="footer__block">
+                <p class="footer__copyright">разработано</p>
+                <a href="https://htmlacademy.ru/" class="footer__link">
+                    <img src="img/academy.png" class="footer__icon" alt="black html academy icon">
+                    <img src="img/academy_blue.png" class="footer__icon" alt="blue html academy icon">
+                    <img src="img/academy_gray.png" class="footer__icon" alt="gray html academy icon">
+                </a>
+            </div>
         </div>
-      </div>
-    </nav>
-  </header>
-  <main>
-    <section class="main-banner">
-      <div class="main-banner__block">
-        <h1 class="main-banner__text"><img src="img/sedona.png" class="main-banner__picture-text" alt="Welcome to the Sedona"></h1>
-      </div>
-    </section>
-    <section class="best-offers">
-      <div class="best-offers__block width_100">
-        <h2 class="best-offers__headline">ФОТО И ВИДЕО</h2>
-        <p class="best-offers__text">НЕ МОЖЕТЕ РЕШИТЬСЯ НА ПУТЕШЕСТВИЕ ИЗ-ЗА КУРСА? ФОТОГРАФИИ ПОМОГУТ ВАМ ЗАБЫТЬ О ПОЛИТИКЕ И ЭКОНОМИКЕ</p>
-      </div>
-    </section>
-    <section class="photo">
-      <div class="photo__main-block">
-        <figure class="photo__block photo__block--1">
-          <img src="img/road.jpg" class="photo__picture photo__picture--1" alt="народные просторы">
-          <div class="photo__information">
-            <h2 class="photo__headline photo__headline--1">НЕРОДНЫЕ ПРОСТОРЫ</h2>
-            <p class="photo__author photo__author--1">Автор фото:Борис</p>
-          </div>
-          <div class="photo__block-button">
-            <button class="photo__button"><img src="img/like-icon.png" class="photo__button-img"></button>
-            <p class="photo__numbers">1350</p>
-          </div>
-        </figure>
-        <figure class="photo__block photo__block--2">
-          <img src="img/plants.jpg" class="photo__picture photo__picture--2" alt="местная растительность">
-          <div class="photo__information">
-            <h2 class="photo__headline photo__headline--2">МЕСТНАЯ РАСТИТЕЛЬНОСТЬ</h2>
-            <p class="photo__author photo__author--2">Автор фото:Сергей</p>
-          </div>
-          <div class="photo__block-button">
-            <button class="photo__button"><img src="img/like-icon.png" class="photo__button-img"></button>
-            <p class="photo__numbers">143</p>
-          </div>
-        </figure>
-        <figure class="photo__block photo__block--3">
-          <img src="img/road_north.jpg" class="photo__picture photo__picture--3" alt="дорога на север">
-          <div class="photo__information">
-            <h2 class="photo__headline photo__headline--3">ДОРОГА НА СЕВЕР</h2>
-            <p class="photo__author photo__author--3">Автор фото:Петр</p>
-          </div>
-          <div class="photo__block-button">
-            <button class="photo__button"><img src="img/like-icon.png" class="photo__button-img"></button>
-            <p class="photo__numbers">96</p>
-          </div>
-        </figure>
-        <figure class="photo__block photo__block--4">
-          <img src="img/devil's_bridge.jpg" class="photo__picture photo__picture--4" alt="мост дьявола">
-          <div class="photo__information">
-            <h2 class="photo__headline photo__headline--4">МОСТ ДЬЯВОЛА</h2>
-            <p class="photo__author photo__author--4">Автор фото:Антон</p>
-          </div>
-          <div class="photo__block-button">
-            <button class="photo__button"><img src="img/like-icon.png" class="photo__button-img"></button>
-            <p class="photo__numbers">254</p>
-          </div>
-        </figure>
-      </div>
-    </section>
-    <section class="presentation">
-      <div class="presentation__block">
-        <h2 class="presentation__headline">ВСЕ ЕЩЕ СОМНЕВАЕТСЯ</h2>
-        <p class="presentation__text">СМОТРИТЕ ВИДЕОПРЕЗЕНТАЦИЮ И СКОРЕЕ ЗА БИЛЕТАМИ, ПОКА ОНИ НЕ ПОДОРОЖАЛИ В ОЧЕРЕДНОЙ РАЗ!</p>
-        <img src="img/video-desktop@1x.jpg" class="presentation__photo">
-        <div class="presentation__item">
-          <button class="presentation__button--turntable-2"></button><div class="presentation__band"><div class="presentation__circle"></div></div> <button class="presentation__block--cc-2"></button><button class="presentation__button--expand-2"></button>
-        </div>
-        <div class="presentation__unit">
-         <button class="presentation__block--turntable"></button>
-         <button class="presentation__block--cc"></button>
-         <button class="presentation__block--expand"></button>
-        </div>
-      </div>
-    </section>
-  </main>
-  <footer class="footer">
-    <div class="footer__block row_768 width_100">
-      <div class="footer__block-minor">
-        <h2 class="footer__text">#VISITSEDONA</h2>
-      </div>
-      <div class="footer__block-minor row">
-        <a href="#" class="footer__social footer__social--1">
-          <img src="img/icon-twitter.png" class="footer__icon footer__icon--1" alt="Twitter">
-          <img src="img/twitter_active.png" class="footer__icon-active footer__icon-active--1">
-        </a>
-        <a href="#" class="footer__social footer__social--2">
-          <img src="img/icon-facebook.png" class="footer__icon footer__icon--2" alt="facebook">
-          <img src="img/facebook_active.png" class="footer__icon-active footer__icon-active--2">
-        </a>
-        <a href="#" class="footer__social footer__social--3">
-          <img src="img/icon-youtube.png" class="footer__icon footer__icon--3" alt="YouTube">
-          <img src="img/YouTube_active.png" class="footer__icon-active footer__icon-active--3">
-        </a>
-      </div>
-      <div class="footer__block-minor footer__block-minor--3 row">
-        <p class="footer__copyright">РАЗРАБОТАНО</p>
-        <a href="https://htmlacademy.ru/" class="footer__link">
-          <img src="img/academy.png" class="footer__icon--4">
-          <img src="img/academy_blue.png" class="footer__icon--5">
-          <img src="img/academy_gray.png" class="footer__icon--6">
-        </a>
-      </div>
-    </div>
-  </footer>
+    </footer>
 </body>
 
 </html>

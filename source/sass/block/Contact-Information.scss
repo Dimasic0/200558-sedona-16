@@ -1,4 +1,4 @@
-.Contact-Information__block {
+.Contact-Information__wrapper {
   min-width:320px;
   width:100%;
   max-width:1200px;
@@ -23,7 +23,7 @@
 
 .Contact-Information__fields-water {
   @include block-color(222px, 58px, #f2f2f2);
-  border: 0px;
+  border: 0;
   margin-left:20*100%/320;
   box-sizing: border-box;
   padding-left:22px;
@@ -32,17 +32,17 @@
 
 .Contact-Information__button {
   display: inline-block;
-  border: 0px;
+  border: 0;
   position: relative;
 }
 
-.Contact-Information__button--1 {
+.Contact-Information__button:nth-of-type(1) {
   padding: 20px 19px 18px 21px;
   top: 3px;
   left: -5px;
 }
 
-.Contact-Information__button--2
+.Contact-Information__button:nth-of-type(2)
 {
   padding: 23px 19px 19px 21px;
   top:2px;

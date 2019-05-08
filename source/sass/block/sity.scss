@@ -1,6 +1,7 @@
 .city__headline {
   margin-top:59px;
   @include font(PTSans,18px,700,white,center);
+  text-transform: uppercase;
 }
 .city__number {
   margin-top:18px;
@@ -11,13 +12,16 @@
   margin-top:19px;
   @include font(Myriad Pro,14px,400,white,center);
   line-height:21px;
+  text-transform: uppercase;
 }
 
-.city__main-block {
-  width:$Screen-size*1px;
+.city__wrapper {
+  width:100%;
   margin-left:auto;
   margin-right:auto;
   max-width:1200px;
+  display:flex;
+  flex-direction: row;
 }
 .city__block
 {
@@ -25,5 +29,5 @@
 }
 .city__block-picture
 {
-  @include block-background($Screen-size*1px,260px,"../img/main-city-desktop@1x.jpg");
+  @include block-background($Screen-size*1px,260px,"../img/city_1x.jpg");
 }

@@ -2,6 +2,7 @@
 {
   @include font(PTSans,18px,700,black,center);
   margin-top:44px;
+  text-transform: uppercase;
 
 }
 .best-offers__text
@@ -11,12 +12,12 @@
   @extend .information-city__text;
   margin-top:37px;
   margin-bottom:33px;
-  width:100%;
   text-align: center;
   margin-left:auto;
   margin-right:auto;
+  width:459px;
 }
-.best-offers__block
+.best-offers__wrapper
 {
   min-width:$Screen-size*1px;
   width:100%;
@@ -26,11 +27,11 @@
   border-bottom:1px solid #e5e5e5;
 }
 .best-offers,
-.best-offers__block
+.best-offers__wrapper
 {
   overflow: hidden;
 }
 .best-offers__block
 {
-  @extend .information-city__block;
+  @extend .information-city__wrapper;
 }

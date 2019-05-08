@@ -18,6 +18,7 @@
   color: black;
   @extend .advantage__text;
   line-height: 24px;
+  text-transform: uppercase;
 }
 
 .modal__button {
@@ -26,7 +27,7 @@
   margin-right: auto;
   margin-top:35px;
   margin-bottom:49px;
-  border:0px;
+  border:0;
   @include button_color(17px, 47px, 19px, 47px,#81b3d2, 21px, 700, white);
 }
 .modal__button:hover
